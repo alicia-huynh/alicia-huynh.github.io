@@ -73,8 +73,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '8') {
 
-    fill(300, 100, 0, 80);
-    rect(mouseX, mouseY, 20, 20);
+    image(img3, mouseX-25, mouseY-25, 50, 50);
   } else if (toolChoice == '9') {
 
     image(img, mouseX-25, mouseY-25, 50, 50)
