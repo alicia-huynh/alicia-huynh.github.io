@@ -50,7 +50,8 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '4') {
 
-    stroke(0, 0, 255);
+    strokeWeight(3);
+    stroke('#ffffff')
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (key == '5') { // this tool calls a function
     stroke(0, 0, 255);
