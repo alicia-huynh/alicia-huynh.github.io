@@ -1,6 +1,6 @@
 var img;
 var img2;
-var im3;
+var img3;
 var initials ='ah'; // your initials
 var choice = '1'; // starting choice, so it is not empty
 var screenbg = 240; // off white background
