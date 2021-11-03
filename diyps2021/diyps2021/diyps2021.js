@@ -85,7 +85,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
     image(img, mouseX-25, mouseY-25, 50, 50);
     
-  }  else if (toolChoice == 'r' || toolChoice == 'G') { // g places the image we pre-loaded
+  }  else if (toolChoice == 'r' || toolChoice == 'R') { // g places the image we pre-loaded
     image(img2, mouseX-25, mouseY-25, 50, 50);
     
   }
