@@ -51,23 +51,25 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == '4') {
 
     strokeWeight(3);
-    stroke('#ffffff')
+    stroke('#ffffff');
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (key == '5') { // this tool calls a function
-    stroke(0, 0, 255);
-    testbox(20, 20, 200);
-    testbox(200, 20, 20);
+   strokeWeight(3);
+    stroke('#d00000');
+    line(mouseX, mouseY, pmouseX, pmouseY);
     
  // make testbox do something!
  //   line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '6') {
 
-    stroke(200);
+    strokeWeight(3);
+    stroke('#e85d04');
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '7') {
 
-    fill(100, 200, 100);
-    rect(mouseX, mouseY, 20, 20);
+    strokeWeight(3);
+    stroke('#faa307');
+    line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '8') {
 
     fill(300, 100, 0, 80);
