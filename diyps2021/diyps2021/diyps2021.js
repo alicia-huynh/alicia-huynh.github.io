@@ -76,11 +76,12 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     image(img3, mouseX-25, mouseY-25, 50, 50);
   } else if (toolChoice == '9') {
 
-    image(img, mouseX-25, mouseY-25, 50, 50)
+    image(img, mouseX-25, mouseY-25, 50, 50);
   } else if (toolChoice == '0') {
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
     rect(mouseX, mouseY, 200, 150);
+    
   } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
     image(img, mouseX-25, mouseY-25, 50, 50);
     
