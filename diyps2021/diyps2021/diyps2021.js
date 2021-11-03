@@ -73,7 +73,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == '8') {
 
     strokeWeight(3);
-    stroke('#faa307');
+    stroke('#023e8a');
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '9') {
 
