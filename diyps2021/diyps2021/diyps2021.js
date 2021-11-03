@@ -1,5 +1,6 @@
 var img;
 var img2;
+var im3;
 var initials ='ah'; // your initials
 var choice = '1'; // starting choice, so it is not empty
 var screenbg = 240; // off white background
@@ -76,8 +77,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     rect(mouseX, mouseY, 20, 20);
   } else if (toolChoice == '9') {
 
-    fill(300, 100, 0, 80);
-    rect(mouseX, mouseY, 40, 40);
+    image(img, mouseX-25, mouseY-25, 50, 50)
   } else if (toolChoice == '0') {
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
