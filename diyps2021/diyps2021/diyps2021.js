@@ -1,6 +1,5 @@
 var img;
 var img2;
-var img3;
 var initials ='ah'; // your initials
 var choice = '1'; // starting choice, so it is not empty
 var screenbg = 240; // off white background
@@ -73,7 +72,9 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '8') {
 
-    image(img3, mouseX-25, mouseY-25, 50, 50);
+    strokeWeight(3);
+    stroke('#faa307');
+    line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '9') {
 
     image(img, mouseX-25, mouseY-25, 50, 50);
