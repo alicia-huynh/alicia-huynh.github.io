@@ -77,7 +77,9 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '9') {
 
-    image(img, mouseX-25, mouseY-25, 50, 50);
+     strokeWeight(3);
+    stroke('#2d6a4f');
+    line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '0') {
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
