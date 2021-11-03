@@ -1,5 +1,6 @@
 var img;
 var img2;
+var img3;
 var initials ='ah'; // your initials
 var choice = '1'; // starting choice, so it is not empty
 var screenbg = 240; // off white background
@@ -8,6 +9,7 @@ function preload() {
 // preload() runs once, it may make you wait
   img = loadImage('fire_emoji.png');  // cat.jpg needs to be next to this .js file
   img2=loadImage('earth_emoji.png');
+  img3=loadImage('failed_test.png');
 // you can link to an image on your github account
 // img = loadImage('https://alicia-huynh.github.io/images/fire_emoji.png
 }
@@ -81,9 +83,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     stroke('#2d6a4f');
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '0') {
-    stroke(0, 0);
-    fill(random(255), random(255), random(255), random(255));
-    rect(mouseX, mouseY, 200, 150);
+    image(img3, mouseX-25, mouseY-25, 50, 50)
     
   } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
     image(img, mouseX-25, mouseY-25, 50, 50);
