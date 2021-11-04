@@ -35,61 +35,60 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   // just make sure each key option has the a stroke or fill and then what type of 
   // graphic function
 
- if (toolChoice == '1' ) {  // first tool
+ if (toolChoice == '1' ) {  // first tool, thin black line
    
     strokeWeight(1);
     stroke('#000000');
      line(mouseX, mouseY, pmouseX, pmouseY);
     
-  } else if (toolChoice == '2') { // second tool
+  } else if (toolChoice == '2') { // second tool, thick black line
 
     strokeWeight(3);
     stroke('#000000');
     line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '3') { // third tool
+  } else if (toolChoice == '3') { // third tool, pink color
 
      strokeWeight(3);
     stroke('#ff4d6d');
     line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '4') {
+  } else if (toolChoice == '4') { //white color
 
     strokeWeight(3);
     stroke('#ffffff');
     line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (key == '5') { // this tool calls a function
+  } else if (key == '5') { // red color
    strokeWeight(3);
     stroke('#d00000');
     line(mouseX, mouseY, pmouseX, pmouseY);
     
- // make testbox do something!
- //   line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '6') {
+ 
+  } else if (toolChoice == '6') {//orange color
 
     strokeWeight(3);
     stroke('#e85d04');
     line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '7') {
+  } else if (toolChoice == '7') {//yellow color
 
     strokeWeight(3);
     stroke('#faa307');
     line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '8') {
+  } else if (toolChoice == '8') {//blue color
 
     strokeWeight(3);
     stroke('#023e8a');
     line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '9') {
+  } else if (toolChoice == '9') {//green color
 
      strokeWeight(3);
     stroke('#2d6a4f');
     line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '0') {
+  } else if (toolChoice == '0') {//failed test stamp
     image(img3, mouseX-25, mouseY-25, 50, 50);
     
-  } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
+  } else if (toolChoice == 'g' || toolChoice == 'G') { // fire emoji stamp
     image(img, mouseX-25, mouseY-25, 50, 50);
     
-  }  else if (toolChoice == 'r' || toolChoice == 'R') { // g places the image we pre-loaded
+  }  else if (toolChoice == 'r' || toolChoice == 'R') { // earth emoji stamp
     image(img2, mouseX-25, mouseY-25, 50, 50);
     
   }
