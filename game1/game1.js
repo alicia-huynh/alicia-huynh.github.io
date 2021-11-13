@@ -3,6 +3,7 @@ var bally = 300;
 var ballSize = 75;
 var score = 0;
 var gameState = "L1";
+var screen= 0; 
 var img;
 var img2;
 var img3;
