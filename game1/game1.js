@@ -17,7 +17,7 @@ function preload(){
 img= loadImage('corgi.png');
 img2= loadImage('Soccer_Ball.png');
 img3= loadImage('parkbackground.jpg');
-img5= loadImage('kite.png');
+img5= loadImage('Kite.png');
 img6= loadImage('soccergoal.jpg');
 img7= loadImage('sky.jpg');
 img8= loadImage('pizzaparty.jpg');
