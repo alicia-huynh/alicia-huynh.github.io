@@ -120,7 +120,7 @@ function levelThree(){
  image(img5, ballx-ballSize/2, bally-ballSize/2, ballSize, ballSize);
 
 
-if(score>45){
+if(score>44){
   gameState = "Win";
   }
   
