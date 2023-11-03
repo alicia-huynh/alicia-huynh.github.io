@@ -25,7 +25,7 @@ img8= loadImage('pizzaparty.jpg');
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(1000,1000);
   textAlign(CENTER);
   textSize(20);
 }// end of setup
